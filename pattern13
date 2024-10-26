@@ -1,0 +1,13 @@
+def print9(n):
+    for i in range(n):
+        
+        for ch in range(ord('A')+i+1):
+            print(chr(ch),end="")
+        print()    
+        
+
+def main():
+    n=int(input())
+    print9(n)        
+
+main()
